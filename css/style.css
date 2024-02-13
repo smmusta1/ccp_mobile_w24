@@ -60,8 +60,7 @@ nav ul li a.active {
     text-decoration: none;
 }
 
-.skip-link:focus,
-.skip-link:hover {
+.skip-link:focus {
     top: 0;
 }
 
