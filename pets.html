@@ -3,15 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/html5reset.css">
+	<link rel="stylesheet" href="css/style.css">
     <title>Pets</title>
 </head>
 <body>
-    <a href = "">Skip to Main Content</a>
     <header>
+        <a href="#main-content" class="skip-link">Skip to Main Content</a>
         <nav>
             <ul>
                 <li><a href = "index.html">Home</a></li>
-                <li><a href = "pets.html">Pets</a></li>
+                <li><a href = "pets.html" class="active">Pets</a></li>
                 <li><a href = "recipes.html">Recipes</a></li>
                 <li><a href = "travel.html">Travel</a></li>
             </ul>
@@ -23,8 +25,7 @@
         <div>
             <h2>Bacon Q Dog</h2>
             <img src="images/bacon.jpg" width="400" alt="Brown labradoodle wearing colorful lei">
-            <p>Bacon Q. Dog is a 9yr old labradoodle. He prefers to spend his days lounging among the three different beds/couches that his family has gifted him. He enjoys a walk or two around the neighborhood, as long as he can pretend that he doesn't see any of the other animals to avoid the embarrassment of not wanting to admit he has no wolf-like skills in chasing them.</p> 
-            <P>At night just as the rest of the family is ready to relax, Bacon suddenly wants to release all of his energy. He will place his toys on a mini couch and frantically drag the couch around, giving his toys "a ride." There is also a lot of rolling. Lots and lots of rolling.</P>
+            <p>Bacon Q. Dog is a 9yr old labradoodle. He prefers to spend his days lounging among the three different beds/couches that his family has gifted him. He enjoys a walk or two around the neighborhood, as long as he can pretend that he doesn't see any of the other animals to avoid the embarrassment of not wanting to admit he has no wolf-like skills in chasing them.At night just as the rest of the family is ready to relax, Bacon suddenly wants to release all of his energy. He will place his toys on a mini couch and frantically drag the couch around, giving his toys "a ride." There is also a lot of rolling. Lots and lots of rolling.</p>
             <h3>Photo Gallery</h3>
             <img src="images/bacon_bandana.JPG" width ="200" alt = "Brown labradoodle wearing an orange bandana">
             <img src="images/bacon_graduation.JPG"  width ="200" alt="Small labradoodle puppy wearing a graduation cap and gown">
@@ -48,10 +49,22 @@
             <img src="images/cody.jpg" width="400" alt="Tan and white corgi">
             <p>Cody is a 7yr old Pembroke Corgi. He was born in Cavalier Farms, Seattle. He prefers to spend his days lounging on the bean bag. Every day, he enjoys two walks around the neighborhood and likes to make friends with other doggie friends. If lucky enough, he might see the cyclist, but he is not allowed to give chase. Cody loves traveling. He enjoys walking on the beach and taking sun naps. But he hates cold weather. He would like to stay at home lounging by the fireplace in winter.</p> 
             <h3>Photo Gallery</h3>
-            <img src="images/cody_deathvalley.jpg" width ="200" alt = "Tan and white corgi standing on white sand">
-            <img src="images/cody_fireplace.jpg"  width ="200" alt="Tan and white corgi in front of a fireplace">
-            <img src="images/cody_play.jpg"  width ="200" alt="Tan and white corgi lying on its back with legs in the air">
-            <img src="images/cody_sea.jpg"  width ="200" alt="Tan and white corgi standing on a rock formation by the sea">
+
+            <div class="grid-container">
+                <div class="grid-item">
+                    <img src="images/cody_deathvalley.jpg" width ="200" alt = "Tan and white corgi standing on white sand">
+                </div>
+                <div class="grid-item">
+                    <img src="images/cody_fireplace.jpg"  width ="200" alt="Tan and white corgi in front of a fireplace">
+                </div>
+                <div class="grid-item">
+                    <img src="images/cody_play.jpg"  width ="200" alt="Tan and white corgi lying on its back with legs in the air">
+                </div>
+                <div class="grid-item">
+                    <img src="images/cody_sea.jpg"  width ="200" alt="Tan and white corgi standing on a rock formation by the sea">
+                </div>
+              </div>
+
 
 
             <h3>Likes</h3>

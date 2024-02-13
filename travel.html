@@ -3,24 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/html5reset.css">
+	<link rel="stylesheet" href="css/style.css">
     <title>Travel</title>
 </head>
 <body>
-    <a href = "">Skip to Main Content</a>
-    <header>
+    <header>    
+        <a href="#main-content" class="skip-link">Skip to Main Content</a>
         <nav>
             <ul>
                 <li><a href = "index.html">Home</a></li>
                 <li><a href = "pets.html">Pets</a></li>
                 <li><a href = "recipes.html">Recipes</a></li>
-                <li><a href = "travel.html">Travel</a></li>
+                <li><a href = "travel.html" class="active">Travel</a></li>
             </ul>
         </nav>
         <h1>Travel</h1>
     </header>
 
-    <main>
-    <div>
+    <main id="main-content">
+        <div>
         <h2>Yellowstone National Park</h2>
         <h3>Geographical Location: North America</h3>
         <p>Yellowstone is the first national park in the United States. It covers over 2.2 million acres and provides an opportunity to see wildlife and explore geothermal areas.</p>
@@ -51,22 +53,33 @@
         <h3>Geographical Location: North America</h3>
         <p>Los Angeles is a sprawling Southern California city and the center of the nations film and television industry. Near its iconic Hollywood sign, studios such as Paramount Pictures, Universal and Warner Brothers offer behind-the-scenes tours. On Hollywood Boulevard, TCL Chinese Theatre displays celebrities hand- and footprints, the Walk of Fame honors thousands of luminaries and vendors sell maps to stars homes</p>
         <h3>Photo Gallery</h3>
-        <figure>
-            <img class="thumbnail" src="images/downtown_la.jpeg" width="400" alt="Skyline of LA with dowtown in the center">
-            <figcaption>Downtown Los Angeles</figcaption>
-        </figure>
-        <figure>
-            <img class="thumbnail" src="images/skyline_la.jpg" width="400" alt="LA skyline with mountains in the background">
-            <figcaption>The LA skyline set against the San Gabriel Mountains in the background.</figcaption>
-        </figure>
-        <figure>
-            <img class="thumbnail" src="images/city_hall_la.jpeg" width="400" alt="City hall with a signpost of roadmaps in front of it">
-            <figcaption>Los Angeles City Hall with twin towns fingerpost</figcaption>
-        </figure>
-        <figure>
-            <img class="thumbnail" src="images/hollywood_sign.jpeg" width="400" alt="Hollywood sign on the mountain side">
-            <figcaption> Los angeles california hollywood sign close up</figcaption>
-        </figure>
+
+        <div class="grid-container">
+            <div class="grid-item">
+                <figure>
+                    <img class="thumbnail" src="images/downtown_la.jpeg" width="400" alt="Skyline of LA with dowtown in the center">
+                    <figcaption>Downtown Los Angeles</figcaption>
+                </figure>
+            </div>
+            <div class="grid-item">
+                <figure>
+                    <img class="thumbnail" src="images/skyline_la.jpg" width="400" alt="LA skyline with mountains in the background">
+                    <figcaption>The LA skyline set against the San Gabriel Mountains in the background.</figcaption>
+                </figure>
+            </div>
+            <div class="grid-item">
+                <figure>
+                    <img class="thumbnail" src="images/city_hall_la.jpeg" width="400" alt="City hall with a signpost of roadmaps in front of it">
+                    <figcaption>Los Angeles City Hall with twin towns fingerpost</figcaption>
+                </figure>
+            </div>
+            <div class="grid-item">
+                <figure>
+                    <img class="thumbnail" src="images/hollywood_sign.jpeg" width="400" alt="Hollywood sign on the mountain side">
+                    <figcaption> Los angeles california hollywood sign close up</figcaption>
+                </figure>
+            </div>
+          </div>
     </div>
 
     <div>
@@ -82,7 +95,7 @@
             <img class="thumbnail" src="images/lisbon_squid.jpeg" width="400" alt="Squid arranged on a plate on a table">
             <figcaption>A plate of squid from a restaurant in Lisbon</figcaption>
         </figure>
-        <figure>
+        <figure class="animation-element">
             <img class="thumbnail" src="images/lisbon_streetcar.gif" width="400" alt="A yellow tram moving forward in a cramped alley">
             <figcaption>A streetcar driving in Lisbon</figcaption>
         </figure>
